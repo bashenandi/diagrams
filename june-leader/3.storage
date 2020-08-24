@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-24T10:52:49.191Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="Tlha10qyKOzod2j7SWQH" version="13.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-24T10:56:00.833Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36" etag="RqktLUgRgosz2VkhnmY5" version="13.6.4" type="github">
   <diagram id="66iKq8JXCZTzFPhUOAYH" name="第 1 页">
     <mxGraphModel dx="1422" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,20 +94,44 @@
         <mxCell id="fGOu9XXR6LaYQ_uFrYI1-3" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.switch;" parent="1" vertex="1">
           <mxGeometry x="110" y="-720" width="177.35" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="qU9YKE-JccB2xBH29fCx-1" value="Cache Data Server" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cache_server;" vertex="1" parent="1">
+        <mxCell id="qU9YKE-JccB2xBH29fCx-1" value="Cache Data Server" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cache_server;" parent="1" vertex="1">
           <mxGeometry x="379" y="-810" width="71" height="97.5" as="geometry" />
         </mxCell>
-        <mxCell id="qU9YKE-JccB2xBH29fCx-2" value="Core Database" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database_server;" vertex="1" parent="1">
+        <mxCell id="qU9YKE-JccB2xBH29fCx-2" value="Core Database" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database_server;" parent="1" vertex="1">
           <mxGeometry x="530" y="-729.5" width="80" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="qU9YKE-JccB2xBH29fCx-3" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" source="fGOu9XXR6LaYQ_uFrYI1-3" target="qU9YKE-JccB2xBH29fCx-2">
+        <mxCell id="qU9YKE-JccB2xBH29fCx-3" value="" style="endArrow=classic;startArrow=classic;html=1;" parent="1" source="fGOu9XXR6LaYQ_uFrYI1-3" target="qU9YKE-JccB2xBH29fCx-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="-570" as="sourcePoint" />
             <mxPoint x="440" y="-620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qU9YKE-JccB2xBH29fCx-5" value="Cache Data Server" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cache_server;" vertex="1" parent="1">
+        <mxCell id="qU9YKE-JccB2xBH29fCx-5" value="Cache Data Server" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cache_server;" parent="1" vertex="1">
           <mxGeometry x="378" y="-660" width="71" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="AbsNmB3RAXzti_X1HP41-1" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" source="fGOu9XXR6LaYQ_uFrYI1-3" target="qU9YKE-JccB2xBH29fCx-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="-780" as="sourcePoint" />
+            <mxPoint x="260" y="-830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AbsNmB3RAXzti_X1HP41-2" value="" style="endArrow=classic;startArrow=classic;html=1;" edge="1" parent="1" source="fGOu9XXR6LaYQ_uFrYI1-3" target="qU9YKE-JccB2xBH29fCx-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="-540" as="sourcePoint" />
+            <mxPoint x="280" y="-590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AbsNmB3RAXzti_X1HP41-3" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="qU9YKE-JccB2xBH29fCx-2" target="qU9YKE-JccB2xBH29fCx-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="-760" as="sourcePoint" />
+            <mxPoint x="660" y="-810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AbsNmB3RAXzti_X1HP41-4" value="" style="endArrow=classic;html=1;" edge="1" parent="1" source="qU9YKE-JccB2xBH29fCx-2" target="qU9YKE-JccB2xBH29fCx-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="-550" as="sourcePoint" />
+            <mxPoint x="630" y="-600" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
