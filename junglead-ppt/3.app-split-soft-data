@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" modified="2020-08-24T08:35:10.488Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="LqcNOyOa3nOJOj7BBIb8" version="13.6.4" type="github">
+  <diagram id="HT1jUtz_22-5RxXtBamM" name="第 1 页">
+    <mxGraphModel dx="1038" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="CBaAO7bBpNb9YsdcdSxb-1" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="48.75" y="50" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBaAO7bBpNb9YsdcdSxb-2" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.browser;" vertex="1" parent="1">
+          <mxGeometry x="40" y="189" width="47.5" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CBaAO7bBpNb9YsdcdSxb-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="40" width="190" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="CBaAO7bBpNb9YsdcdSxb-4" value="发票微服务" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_service;" vertex="1" parent="1">
+          <mxGeometry x="180" y="60" width="63" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBaAO7bBpNb9YsdcdSxb-5" value="单据微服务" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_service;" vertex="1" parent="1">
+          <mxGeometry x="270" y="60" width="63" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBaAO7bBpNb9YsdcdSxb-6" value="日志微服务" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_service;" vertex="1" parent="1">
+          <mxGeometry x="180" y="170" width="63" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBaAO7bBpNb9YsdcdSxb-7" value="用户微服务" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.web_service;" vertex="1" parent="1">
+          <mxGeometry x="270" y="170" width="63" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CBaAO7bBpNb9YsdcdSxb-8" value="应用层中间件" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.middleware;fontColor=#FF0000;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="414" y="120" width="114" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="CBaAO7bBpNb9YsdcdSxb-9" value="数据缓存服务器" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.cache_server;" vertex="1" parent="1">
+          <mxGeometry x="620" y="106.25" width="71" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CBaAO7bBpNb9YsdcdSxb-10" value="数据库服务器" style="verticalLabelPosition=bottom;aspect=fixed;html=1;verticalAlign=top;strokeColor=none;align=center;outlineConnect=0;shape=mxgraph.citrix.database_server;" vertex="1" parent="1">
+          <mxGeometry x="431" y="290" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CBaAO7bBpNb9YsdcdSxb-11" value="" style="endArrow=classic;html=1;fontSize=20;fontColor=#FF0000;entryX=0.421;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="CBaAO7bBpNb9YsdcdSxb-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="130" as="sourcePoint" />
+            <mxPoint x="140" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CBaAO7bBpNb9YsdcdSxb-12" value="" style="endArrow=classic;html=1;fontSize=20;fontColor=#FF0000;entryX=-0.019;entryY=0.807;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="CBaAO7bBpNb9YsdcdSxb-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="92.5" y="225.34229274611403" as="sourcePoint" />
+            <mxPoint x="161.3900000000001" y="225.61" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CBaAO7bBpNb9YsdcdSxb-13" value="" style="endArrow=classic;html=1;fontSize=20;fontColor=#FF0000;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CBaAO7bBpNb9YsdcdSxb-3" target="CBaAO7bBpNb9YsdcdSxb-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="370" as="sourcePoint" />
+            <mxPoint x="510" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CBaAO7bBpNb9YsdcdSxb-14" value="" style="endArrow=classic;html=1;fontSize=20;fontColor=#FF0000;" edge="1" parent="1" source="CBaAO7bBpNb9YsdcdSxb-8" target="CBaAO7bBpNb9YsdcdSxb-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="350" as="sourcePoint" />
+            <mxPoint x="690" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CBaAO7bBpNb9YsdcdSxb-15" value="" style="endArrow=classic;html=1;fontSize=20;fontColor=#FF0000;dashed=1;rounded=0;" edge="1" parent="1" source="CBaAO7bBpNb9YsdcdSxb-8" target="CBaAO7bBpNb9YsdcdSxb-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="630" y="370" as="sourcePoint" />
+            <mxPoint x="680" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
